@@ -21,5 +21,15 @@ Things you may want to cover:
 
 * Deployment instructions
 
+## Run Server
+```
+rails s
+```
+
+## Run Migrate
+```
+rails db:migrate
+```
+
 # Techstack
 - devise
