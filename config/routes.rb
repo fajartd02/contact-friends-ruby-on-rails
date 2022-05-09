@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   resources :friends # AUTOMATION CRUD STUFF
   root 'home#index'
   # get 'home/index'
